@@ -1,9 +1,9 @@
 
-CC?=gcc
+CC=/home/buildserver/sysroots/x86_64-linux/usr/bin/mipsel-oe-linux/mipsel-oe-linux-gcc 
 EMBEDDED?=no
 DVBCSA?=yes
 DVBCA?=no
-SATIPCLIENT?=yes
+SATIPCLIENT?=no
 NETCVCLIENT?=no
 STATIC?=no
 LINUXDVB?=yes
